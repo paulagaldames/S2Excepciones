@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         //armando el marco
-        JFrame frame = new JFrame("Calculadora de área del tringulo");
+        JFrame frame = new JFrame("Calcular área del tringulo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800,200);
         JPanel mainPanel = new JPanel(new GridLayout(3,2,15,15));
